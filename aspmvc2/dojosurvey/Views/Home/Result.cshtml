@@ -1,0 +1,23 @@
+@model dojosurvey.Models.Survey
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="container">
+		<p>Submitted Info:</p>
+		<p>Name: @Model.Name</p>
+		<p>Dojo Location: @Model.Location</p>
+		<p>Favorite Language: @Model.Language</p>
+		<p>Comment: @Model.Comment</p>
+	</div>
+
+	<a href="/"><button>Go Back</button></a>
+
+</body>
+</html>
