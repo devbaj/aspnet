@@ -1,0 +1,70 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+html, body {
+	min-width: 100%;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+img {
+	height: 400px;
+}
+
+p, a {
+	font-size: 1.5rem;
+}
+
+form {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	display: grid;
+	grid-template-rows: 1fr 5fr;
+	grid-template-areas: "head" "main";
+	min-width: 100%;
+}
+
+.header {
+	grid-area: head;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.navlinks {
+	display: flex;
+	flex-flow: row nowrap;
+	width: 30%;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.main {
+	grid-area: main;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.content {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	max-width: 50%;
+}

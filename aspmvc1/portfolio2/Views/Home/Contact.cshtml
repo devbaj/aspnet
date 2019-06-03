@@ -5,15 +5,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Contact Brett</title>
+	<link rel="stylesheet" href="~/css/styles.css">
 </head>
 <body>
 
 	<div class="container">
 
-		<div class="navlinks">
-			
+		<div class="header">
+			<div class="navlinks">
+				<a href="home" class="route">Home</a>
+				<a href="projects" class="route">Projects</a>
+				<p class="current">Contact</p>
+			</div>
 		</div>
 
+		<div class="main">
+			<form action="/contact/submit" method="post">
+				<label for="name">Name</label>
+				<input type="text" name="name" id="name">
+				<label for="email">Email</label>
+				<input type="text" name="email" id="email">
+				<label for="msg">Message</label>
+				<textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+				<button type="submit">Send</button>
+			</form>
+		</div>
 	</div>
 
 </body>

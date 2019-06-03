@@ -27,6 +27,7 @@ namespace portfolio2
             }
 
 					app.UseMvc();
+					app.UseStaticFiles();
         }
     }
 }
