@@ -1,0 +1,14 @@
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\bin\Debug\netcoreapp2.1\portfolio.deps.json
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\bin\Debug\netcoreapp2.1\portfolio.runtimeconfig.json
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\bin\Debug\netcoreapp2.1\portfolio.runtimeconfig.dev.json
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\bin\Debug\netcoreapp2.1\portfolio.dll
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\bin\Debug\netcoreapp2.1\portfolio.pdb
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.csprojAssemblyReference.cache
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.csproj.CoreCompileInputs.cache
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.RazorAssemblyInfo.cache
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.RazorAssemblyInfo.cs
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.AssemblyInfoInputs.cache
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.AssemblyInfo.cs
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.RazorTargetAssemblyInfo.cache
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.dll
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc1\portfolio\obj\Debug\netcoreapp2.1\portfolio.pdb
