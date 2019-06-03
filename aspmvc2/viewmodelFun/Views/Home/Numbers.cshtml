@@ -1,0 +1,10 @@
+@using viewmodelFun
+@model int[]
+
+<h1>Here are some numbers</h1>
+<ul>
+@foreach (int num in Model)
+{
+	<li>@num</li>
+}
+</ul>
