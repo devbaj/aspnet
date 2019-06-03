@@ -1,0 +1,26 @@
+@model simpleLoginReg.Models.Register
+
+<h1>Register</h1>
+<form asp-action="NewUser" asp-controller="Home" method="post">
+	<span asp-validation-for="FirstName"></span>
+	<label asp-for="FirstName"></label>
+	<input asp-for="FirstName">
+
+	<span asp-validation-for="LastName"></span>
+	<label asp-for="LastName"></label>
+	<input asp-for="LastName">
+
+	<span asp-validation-for="RegisterEmail"></span>
+	<label asp-for="RegisterEmail"></label>
+	<input asp-for="RegisterEmail">
+	
+	<span asp-validation-for="RegisterPassword"></span>
+	<label asp-for="RegisterPassword"></label>
+	<input asp-for="RegisterPassword">
+
+	<span asp-validation-for="PasswordConfirmation"></span>
+	<label asp-for="PasswordConfirmation"></label>
+	<input asp-for="PasswordConfirmation">
+
+	<button type="submit">Sign Up</button>
+</form>
