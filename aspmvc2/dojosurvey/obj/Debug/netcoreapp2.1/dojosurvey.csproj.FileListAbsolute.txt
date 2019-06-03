@@ -46,3 +46,4 @@ C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc2\dojosurvey\obj\Debug\n
 C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc2\dojosurvey\obj\Debug\netcoreapp2.1\dojosurvey.dll
 C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc2\dojosurvey\obj\Debug\netcoreapp2.1\dojosurvey.pdb
 C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc2\dojosurvey\obj\Debug\netcoreapp2.1\dojosurvey.csproj.CopyComplete
+C:\Users\bjory\Documents\CODING_DOJO\05_C#\aspnet\aspmvc2\dojosurvey\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs

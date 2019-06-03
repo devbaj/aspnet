@@ -1,3 +1,5 @@
+@model dojosurvey.Models.Survey
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,25 +18,33 @@
 <body>
 	
 	<div class="container">
-		<form action="/result" method="post">
-		<label for="Name">Name</label>
-		<input type="text" name="Name" id="name">
-		<label for="Location">Location</label>
-		<select name="Location" id="loc">
-			<option value="San Jose">San Jose</option>
-			<option value="Seattle">Seattle</option>
-			<option value="Orange County">Orange County</option>
-			<option value="Boise">Boise</option>
-		</select>
-		<label for="Language">Favorite Language</label>
-		<select name="Language" id="lang">
-			<option value="C#">C#</option>
-			<option value="JavaScript">JavaScript</option>
-			<option value="Python">Python</option>
-		</select>
-		<label for="Comment">Comment (optional):</label>
-		<textarea name="Comment" id="comment" cols="30" rows="10"></textarea>
-		<button type="submit">Submit</button>
+		<form asp-action="Result" asp-controller="Home" method="post">
+			<span asp-validation-for="Name"></span>
+			<label asp-for="Name"></label>
+			<input asp-for="Name">
+
+			<span asp-validation-for="Location"></span>
+			<label asp-for="Location"></label>
+			<select asp-for="Location" id="loc">
+				<option value="San Jose">San Jose</option>
+				<option value="Seattle">Seattle</option>
+				<option value="Orange County">Orange County</option>
+				<option value="Boise">Boise</option>
+			</select>
+
+			<span asp-validation-for="Language"></span>
+			<label asp-for="Language"></label>
+			<select asp-for="Language" id="lang">
+				<option value="C#">C#</option>
+				<option value="JavaScript">JavaScript</option>
+				<option value="Python">Python</option>
+			</select>
+
+			<span asp-validation-for="Comment"></span>
+			<label asp-for="Comment"></label>
+			<input asp-for="Comment">
+
+			<button type="submit">Submit</button>
 		</form>
 	</div>
 

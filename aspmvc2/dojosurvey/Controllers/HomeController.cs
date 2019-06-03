@@ -14,7 +14,10 @@ namespace dojosurvey.Controllers
 		[HttpPost("result")]
 		public IActionResult Result(Survey result)
 		{
-			return View(result);
+			if (ModelState.IsValid)
+				return View(result);
+			else
+				return View("Index");
 		}
 	}
 }
